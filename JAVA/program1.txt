@@ -1,0 +1,7 @@
+public class beginner {
+    public static void main(String[]args ){
+        int number=60 ;
+        System.out.print("NUMBER:"+number);
+    }
+
+}

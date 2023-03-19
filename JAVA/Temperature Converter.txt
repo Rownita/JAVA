@@ -1,0 +1,19 @@
+//CELCIUS TO FAHRENHEIT
+
+
+import java.util.Scanner;
+public class TemperatureConverter {
+    public static void main(String[] args) {
+        double x,y;
+        Scanner input=new Scanner(System.in);
+        System.out.print("ENTER THE CELCIUS TEMPERATURE:");
+
+        x=input.nextDouble();
+
+        y=1.8*x+32.0;
+
+        System.out.println("TEMPERATURE IN FAHRENHEIT:"+y);
+
+
+    }
+}

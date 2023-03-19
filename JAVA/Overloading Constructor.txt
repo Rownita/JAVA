@@ -1,0 +1,31 @@
+//Overloading Constructor Box object
+public class Box {
+
+    double width;
+    double height;
+    double length;
+
+
+    //Default Constructor When No Value Is Specified
+    Box(){
+        System.out.println("No argument is passed");
+    }
+    //Parameterized Constructor
+    Box(double h,double w,double l){
+        width=w;
+        height=h;
+        length=l;
+    }
+
+    //Constructor for cube
+    Box(double length){
+    width=length;
+    height=length;
+    this.length=length;
+    }
+    //Method For Calculating Volume
+    double Volume(){
+        return width*height*length;
+    }
+}
+

@@ -1,0 +1,11 @@
+public class Number {
+    private int number;
+//creating getter method
+    public int GetNumber() {
+        return number;
+    }
+//creating setter method
+    public void SetNumber(int num) {
+        number = num;
+    }
+}

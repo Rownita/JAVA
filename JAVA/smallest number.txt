@@ -1,0 +1,32 @@
+//smallest number
+
+
+import java.util.Scanner;
+
+public class SmallestNumber {
+    public static void main(String[] args) {
+
+        Scanner input=new Scanner(System.in);
+        double x,y,z;
+
+        System.out.print("X:");
+        x=input.nextDouble();
+
+        System.out.print("Y:");
+        y=input.nextDouble();
+
+        System.out.print("Z:");
+        z=input.nextDouble();
+
+        if(x<y&&x<z)
+            System.out.println(x+"is the smallest");
+
+        if(y<z&&y<x)
+            System.out.println(y+"is the smallest");
+
+        if(z<x&&z<y)
+            System.out.println(z+"is the smallest");
+
+
+    }
+}

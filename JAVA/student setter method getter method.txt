@@ -1,0 +1,24 @@
+//Creating a class with a setter and a getter method
+
+public class Student {
+    String name;
+    int id;
+    String gender;
+    double marks;
+    void SetInformation(String n,int d, String g,double m){
+        name=n;
+        id=d;
+        gender=g;
+        marks=m;
+
+
+    }
+    void DisplayInformation(){
+        System.out.println("NAME:"+name);
+        System.out.println("ID NO.:"+id);
+        System.out.println("GENDER:"+gender);
+        System.out.println("MARKS:"+marks);
+    }
+
+}
+

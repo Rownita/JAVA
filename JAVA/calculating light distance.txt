@@ -1,0 +1,13 @@
+public class lightspeed {
+    public static void main(String[] args) {
+        int d=1000;
+        long speed=300000000;
+        long time;
+        long distance;
+        time=1000*24*60;//calculating time in second 
+
+        distance=time*speed;// calculating distance using s=vt
+        System.out.print("In"+d+"days,");
+        System.out.print("light will travel about"+distance);
+    }
+}

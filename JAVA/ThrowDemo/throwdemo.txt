@@ -1,0 +1,27 @@
+
+//creating a program involving exception where the exception has been thrown manually
+
+
+import java.util.Scanner;
+public class ThrowDemo {
+
+    public static void Add(){
+        Scanner a=new Scanner(System.in);
+     int i,j;
+        System.out.print("Enter the divisor: ");
+        i=a.nextInt();
+        System.out.print("Enter the dividend:");
+        j=a.nextInt();
+
+        if(i==0)
+            throw new ArithmeticException("Divisor cannot be zero");//An object of type exception has been created through the operator new
+        else {
+            System.out.println("Division is possible");
+            double q=j/i;
+            System.out.println("Quotient:"+q);
+
+        }
+
+
+    }
+}

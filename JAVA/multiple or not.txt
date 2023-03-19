@@ -1,0 +1,24 @@
+//determine whether the second number is the multiple of the first number
+
+import java.util.Scanner;
+
+public class MultipleOrNot {
+  
+  public static void main(String[] args) {
+       
+        int x,y;
+        Scanner input=new Scanner(System.in);
+
+        System.out.print("Enter first number:");
+        x=input.nextInt();
+
+        System.out.print("Enter second number:");
+        y=input.nextInt();
+
+        if(y%x==0)
+            System.out.println(y+" is a multiple of "+ x);
+        else
+            System.out.println(y+" is not a multiple of "+x);
+
+    }
+}

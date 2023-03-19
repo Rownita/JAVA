@@ -1,0 +1,19 @@
+//Test class for ThrowDemo
+public class Test {
+    public static void main(String[] args) {
+
+        try {
+            ThrowDemo d = new ThrowDemo();
+
+            d.Add();
+
+
+        }
+        catch(Exception e){
+            System.out.println("Exception:"+e);
+            System.out.println("Inside catch block");
+            
+        }
+
+    }
+}

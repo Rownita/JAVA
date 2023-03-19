@@ -1,0 +1,30 @@
+public class RationalNumbers {
+
+
+    public static void main(String[] args) {
+
+
+        Rational a = new Rational(3, 10);
+        Rational b = new Rational(5, 20);
+
+        Rational c = new Rational();
+        Rational d = new Rational();
+        Rational e = new Rational();
+        Rational g=new Rational();
+
+
+        c.Add(a, b);
+        System.out.println();
+
+        d.Subtract(a, b);
+
+        System.out.println();
+
+
+        e.Multiplication(a, b);
+        g.Division(a,b);
+
+
+    }
+    }
+

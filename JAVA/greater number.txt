@@ -1,0 +1,17 @@
+//determining greatest number between two numbers
+
+import java.util.Scanner;
+
+public class GreatestNumber {
+    public static void main(String[] args) {
+        double x,y;
+        Scanner variable=new Scanner(System.in);
+        System.out.print("ENTER FIRST NUMBER:");
+        x=variable.nextDouble();
+        System.out.print("ENTER SECOND NUMBER:");
+        y=variable.nextDouble();
+        if(x>y)
+            System.out.println(x+" IS THE GREATEST");
+           else
+            System.out.println(y+" IS THE GREATEST ");
+    }

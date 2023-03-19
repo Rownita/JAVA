@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+public class program{
+    public static void main(String args[]){
+        Scanner name1=new Scanner(System.in);
+    int x;
+    int y;
+        System.out.print("ENTER A NUMBER:");
+        x=name1.nextInt();
+        System.out.print("Enter a number:");
+        y=name1.nextInt();
+        System.out.println("X="+x);
+        System.out.println("Y="+y);
+      
+        x+=y;
+        System.out.println(x);
+        x-=y;
+        System.out.println(x);
+        x*=y;
+        System.out.println(x);
+        
+        x/=y;
+        System.out.println(x);
+
+
+
+
+
+    }
+}

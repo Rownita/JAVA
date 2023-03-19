@@ -1,0 +1,11 @@
+public class program{
+    public static void main(String args[]){
+    char ch1=88;
+    char ch2='Y';
+    System.out.print("character1 and character2:");
+            System.out.print(ch1+" "+ch2 );
+
+
+}
+}
+

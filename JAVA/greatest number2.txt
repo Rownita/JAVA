@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class GreatestNumber2 {
+    public static void main(String[] args) {
+
+        double x,y,z;
+
+        Scanner object=new Scanner(System.in);
+
+        System.out.print("X:");
+        x=object.nextDouble();
+
+        System.out.print("Y:");
+        y=object.nextDouble();
+
+        System.out.print("Z:");
+        z=object.nextDouble();
+
+        if(x>y&&x>z)
+            System.out.println(x+"is the greatest");
+
+        else if(y>z&&y>x)
+            System.out.println(y+"is the greatest");
+        else
+            System.out.println(z+"is the greatest");
+    }
+}

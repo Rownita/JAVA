@@ -1,0 +1,12 @@
+public class forexample {
+    public static void main(String[] args) {
+        int x;
+        int y=20;
+        for(x=0;x<=5;x++)
+        {
+            System.out.println("THIS IS X:"+x);
+            System.out.println("THIS IS Y:"+y);
+            y=y-2;
+        }
+    }
+}

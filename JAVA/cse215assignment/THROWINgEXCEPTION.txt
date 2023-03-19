@@ -1,0 +1,40 @@
+
+package customexception2;
+
+
+public class ThrowingException {
+    String state;
+    double income;
+     ThrowingException(String state,double income){
+        this.state=state;
+        this.income=income;
+    }
+    public void TaxRequire() throws CustomException{
+        if(state=="Women"&&income<=300000)
+            throw new CustomException(" Tax is not required");
+        else
+            System.out.println(" You have to pay income tax");
+        
+        if(state=="Men"&&income<=250000)
+            throw new CustomException("Tax is not required");
+        else
+            System.out.println(" You have to pay tax");
+        
+           
+        if(state=="FreedomFighter"&&income<=425000)
+            throw new CustomException(" Tax is not required");
+        else
+            System.out.println(" You have to pay tax");
+        
+           
+      
+        
+        
+        
+        
+            
+        
+    }
+        
+    
+}

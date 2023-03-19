@@ -1,0 +1,13 @@
+//Test class
+public class Test {
+    public static void main(String[] args) {
+        try {
+            ThrowDemo d = new ThrowDemo();
+            d.Eligibility(19, 60);
+
+        } catch (Exception e) {
+            System.out.println("Exception :" + e);
+
+        }
+    }
+}

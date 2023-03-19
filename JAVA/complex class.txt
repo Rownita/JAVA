@@ -1,0 +1,38 @@
+public class ComplexNumber {
+   float x;//x+yi
+   float y;//x+yi
+   ComplexNumber(){
+       this.x=0.0f;
+       this.y=0.0f;
+
+   }
+   ComplexNumber(float x,float y){
+       this.x=x;
+       this.y=y;
+
+   }
+   public void setX(float x){
+       this.x=x;
+
+   }
+    public void setY(float y){
+       this.y=y;
+
+    }
+    public float getX(){
+       return x;
+    }
+    public float getY(){
+       return y;
+    }
+    public void AddNumbers(ComplexNumber c1,ComplexNumber c2){
+      float a=c1.getX()+c2.getX();
+      float b=c1.getY()+c2.getY();
+        System.out.println(a+"+"+b+"i");
+    }
+    public void SubtractNumbers(ComplexNumber c1,ComplexNumber c2){
+       float a=c1.getX()-c2.getX();
+       float b=c1.getY()-c2.getY();
+        System.out.printf("%f %fi",a,b);
+    }
+}

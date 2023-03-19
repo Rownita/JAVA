@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Array {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int i,n,sum=0,Average;
+
+        int a[];//declaring array
+        a=new int[100];//memory allocation for array
+
+        System.out.print("Enter the number of digits:");
+         n=input.nextInt() ;
+         
+          for(i=0;i<n;i++){
+             System.out.print("Enter the "+(i+1)+"th number:");
+             a[i]=input.nextInt();
+             sum=sum+a[i];
+         }
+         Average=sum/n;
+        System.out.println("THE AVERAGE IS "+Average);
+    }
+}

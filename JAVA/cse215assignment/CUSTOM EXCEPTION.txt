@@ -1,0 +1,15 @@
+
+package customexception2;
+
+
+public class CustomException extends Exception {
+    String str1;
+    CustomException(String str1){
+        
+        this.str1=str1;
+        
+    }
+    public String toString(){
+        return("Tax is not applicable"+str1);
+}
+}

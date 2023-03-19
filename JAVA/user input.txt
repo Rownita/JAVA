@@ -1,0 +1,12 @@
+ import  java.util.Scanner;
+
+public class beginner {
+    public static void main(String[]args ){
+        Scanner variable=new Scanner(System.in);
+        int number ;
+        System.out.print("ENTER ANY NUMBER:");
+        number=variable.nextInt();
+        System.out.println("NUMBER:"+number);
+            }
+
+        }

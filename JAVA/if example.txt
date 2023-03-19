@@ -1,0 +1,22 @@
+public class Ifsample {
+    public static void main(String[] args) {
+        int x,y;
+
+        x=100;
+        y=200;
+
+        if(x<y)
+            System.out.println(x+" is less than"+y);
+
+        x=2*x;
+
+        if(x==y)
+            System.out.println(x+"is equal to"+y);
+
+        x=x+100;
+
+        if(x>y)
+            System.out.println(x+"is greater than"+y);
+
+    }
+}

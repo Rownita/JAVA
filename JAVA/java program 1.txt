@@ -1,0 +1,10 @@
+public class ENUMERATION {
+    enum Coffee{SMALL,MEDIUM,Large}
+    public static void main(String[]args)
+
+    {
+        System.out.println(Coffee.SMALL);
+        System.out.println(Coffee.MEDIUM);
+        System.out.println(Coffee.Large);
+    }
+}

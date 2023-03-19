@@ -1,0 +1,13 @@
+public class ThrowDemo {
+
+   public  void Eligibility(int age,double weight){
+
+       if(age<18&&weight>45&&weight<60)
+           System.out.println("You can get admission ");
+       else
+           throw new ArithmeticException("You are invalid to get admission ");
+
+
+
+   }
+}

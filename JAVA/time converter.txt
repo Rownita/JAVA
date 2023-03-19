@@ -1,0 +1,24 @@
+//TIME CONVERTER
+import java.util.Scanner;
+
+public class TimeConverter {
+    public static void main(String[] args) {
+        int minutes,years,days,remainder;
+
+        Scanner input=new Scanner(System.in);
+
+        System.out.print("INPUT:");
+        minutes=input.nextInt();
+
+        years=minutes/(365*24*60);
+        remainder=minutes%(365*24*60);
+        days=remainder/(24*60);
+
+        System.out.println(minutes+" is approximately "+years+" years and "+days+" days ");
+
+
+
+
+
+    }
+}

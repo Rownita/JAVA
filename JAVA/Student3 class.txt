@@ -1,0 +1,26 @@
+public class Student {
+    int id;
+    String name;
+    String gender;
+    double marks;
+
+    //creating constructor
+     Student(int i,String g,String n,double m){
+         id=i;
+         gender=g;
+         name=n;
+         marks=m;
+     }
+
+
+     //Creating Method
+      void DisplayInformation(){
+          System.out.println("Name:"+name);
+          System.out.println("Gender:"+gender);
+          System.out.println("Marks:"+marks);
+          System.out.println("ID NO. :"+id);
+      }
+
+
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class SmallestNumber {
+    public static void main(String[] args) {
+        Scanner input;
+        input=new Scanner(System.in);
+        int i,n;
+        double a[];//declaring object
+        a=new double[100];//creating object
+
+        System.out.println("ENTER THE NUMBER OF ELEMENTS:");
+        n=input.nextInt();
+
+        for(i=0;i<n;i++){
+            System.out.println("ENTER THE "+(i+1)+"TH NUMBER:");
+            a[i]=input.nextDouble();
+        }
+
+        for(i=0;i<n;i++){
+            if(a[0]>a[i])
+            {
+                a[0]=a[i];
+            }
+        }
+        System.out.println("SMALLEST NUMBER:"+a[0]);
+    }
+}

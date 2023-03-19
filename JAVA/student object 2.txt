@@ -1,0 +1,8 @@
+//Creating a object with passing arguments to parameters
+public class Test{
+    public static void main(String[] args) {
+        Student student1=new Student();
+        student1.SetInformation("Rownita Tasneem",12334,"Female",90.0);
+        student1.DisplayInformation();
+    }
+}

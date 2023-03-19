@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class LargestElement {
+    public static void main(String[] args) {
+
+        Scanner input;
+        input=new Scanner(System.in);
+
+        int i,n,max;
+
+        int a[];//declaring array
+        a=new int[100];//physical copy of array
+        
+        System.out.print("ENTER THE NUMBER OF ELEMENTS:");
+        n=input.nextInt();
+
+        for(i=0;i<n;i++){
+            System.out.print("ENTER THE " +(i+1)+"TH NUMBER:");
+            a[i]=input.nextInt();
+        }
+
+        for(i=0;i<n;i++) {
+
+            if (a[0] < a[i]) {
+                
+                a[0] = a[i];
+            }
+        }
+            System.out.println("THE LARGEST NUMBER:"+a[0]);
+
+    }
+}

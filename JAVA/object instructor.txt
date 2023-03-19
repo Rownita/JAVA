@@ -1,0 +1,9 @@
+public class ObjectInstructor {
+    public static void main(String[] args) {
+        Instructor instructor1;
+        instructor1= new Instructor(12345,"David Silberberg","ECE");
+        instructor1.DisplayInformation();
+        Instructor instructor2=new Instructor();//default contructor
+        instructor2.DisplayInformation();
+    }
+}

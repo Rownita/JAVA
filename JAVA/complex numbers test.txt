@@ -1,0 +1,11 @@
+public class Test {
+    public static void main(String[] args) {
+        ComplexNumber c1= new ComplexNumber(3,2);
+        ComplexNumber c2=new ComplexNumber(5,7);
+        ComplexNumber sum=new ComplexNumber();
+        sum.AddNumbers(c1,c2);
+        ComplexNumber difference=new ComplexNumber();
+        difference.SubtractNumbers(c1,c2);
+
+    }
+}

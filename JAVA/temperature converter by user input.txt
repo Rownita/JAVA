@@ -1,0 +1,41 @@
+//convert fahrenheit to celcius or celcius to fahrenheit
+
+
+import java.util.Scanner;
+public class Converter {
+    public static void main(String[] args) {
+
+        double fahrenheit,celcius;
+        int converter;
+        Scanner input=new Scanner(System.in);
+        Scanner variable=new Scanner(System.in);
+
+        System.out.print("Enter 1 to convert celcius to fahrenheit or Enter 2 to convert fahrenheit to celcius:");
+        converter=variable.nextInt();
+
+        if(converter==2) {
+
+            System.out.print("FAHRENHEIT:");
+            fahrenheit = input.nextDouble();
+            celcius=((fahrenheit-32.00)*(5.00/9.00));
+            System.out.println("Celcius:"+celcius);
+
+        }
+
+        if(converter==1) {
+
+            System.out.print("CELCIUS:");
+            celcius = input.nextDouble();
+            fahrenheit = (celcius * (9.00 / 5.00)) + 32.00;
+            System.out.println("FAHRENHEIT:"+fahrenheit);
+
+        }
+
+
+
+
+
+
+
+    }
+}

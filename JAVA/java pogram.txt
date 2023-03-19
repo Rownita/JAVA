@@ -1,0 +1,10 @@
+public class javaapplication {
+    public static void main(String[] args) {
+     int num;
+     num=100;
+     System.out.println(" THE NUMBER IS:"+num);
+     System.out.print("The value of num*2:");
+     num=num*2;
+     System.out.print(num);
+    }
+}

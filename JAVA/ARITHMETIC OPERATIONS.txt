@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+public class program{
+    public static void main(String args[]){
+        Scanner name1=new Scanner(System.in);
+    int x;
+    int y;
+        System.out.print("ENTER A NUMBER:");
+        x=name1.nextInt();
+        System.out.print("Enter a number:");
+        y=name1.nextInt();
+        System.out.println("X="+x);
+        System.out.println("Y="+y);
+        int result1,result2,result3,result4,result5;
+        result1=x+y;
+        result2=x-y;
+        result3=x*y;
+        result4=x/y;
+        result5=x%y;
+        System.out.println("SUM:"+result1);
+        System.out.println("SUBTRACTION:"+result2);
+        System.out.println("MULTIPLICATION:"+result3);
+        System.out.println("DIVISION:"+result4);
+        System.out.println("REMAINDER:"+result5);
+
+
+
+
+    }
+}

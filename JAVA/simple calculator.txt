@@ -1,0 +1,26 @@
+//SIMPLE CALCULATOR
+import java.util.Scanner;
+
+public class Calculator {
+    public static void main(String[] args) {
+        int x;
+        int y;
+        Scanner input=new Scanner(System.in);
+        System.out.print("ENTER A NUMBER:");
+        x=input.nextInt();
+        System.out.println("Enter a number:");
+        y=input.nextInt();
+        int result1,result2,result3,result4,result5;
+        result1=x+y;
+        result2=x-y;
+        result3=x/y;
+        result4=x*y;
+        result5=x%y;
+        System.out.println("ADDITION:"+result1);
+        System.out.println("SUBTRACTION:"+result2);
+        System.out.println("DIVISION:"+result3);
+        System.out.println("MULTIPLICATION:"+result4);
+        System.out.println("MODULO:"+result5);
+
+    }
+}

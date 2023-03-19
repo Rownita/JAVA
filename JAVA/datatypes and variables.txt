@@ -1,0 +1,18 @@
+public class program{
+    public static void main(String args[]){
+    int a=30;
+    byte b=127;
+    double c=89.90098765;
+    float d=123.678f;
+    char e='Z';
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+
+
+
+
+    }
+}

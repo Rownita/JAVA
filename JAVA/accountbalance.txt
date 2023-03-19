@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class AccountBalance {
+        public static void main(){
+
+            Scanner input=new Scanner(System.in);
+
+            double p,n,accountvalue;
+
+            System.out.println("Enter the principal:");
+            p=input.nextDouble();
+
+
+            System.out.println("Enter the time in month:");
+            n=input.nextDouble();
+
+            accountvalue =p*(1.00+n*0.00417);
+            System.out.println("ACCOUNT BALANCE:"+accountvalue);
+
+
+
+
+
+
+        }
+    }

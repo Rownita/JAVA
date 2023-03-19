@@ -1,0 +1,37 @@
+
+package exceptionhandling;
+
+public class ExceptionHandling {
+
+  
+    public static void main(String[] args) {
+    
+        
+          try{                            //A single try block cannot throw more than one exception at the same time.
+            int a[]=new int[100];
+            a[10]=90;
+            int p=100;
+            int q=0;
+            int result=p/q;
+            System.out.println("Result:"+result);
+
+
+        }
+           catch(ArrayIndexOutOfBoundsException e){
+            System.err.println("Stay in your limit:"+e);
+        }
+            catch(ArithmeticException e){
+            System.err.println("Division by zero:"+e);
+        }
+
+          finally{  
+          System.out.println("ExceptionHandling is one of the  unique features of JAVA ");
+
+          }
+        
+        
+        
+        
+    }
+    
+}

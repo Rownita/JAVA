@@ -1,0 +1,32 @@
+//Creating object under Teacher class
+
+public class Test {
+    public static void main(String[] args) {
+         Teacher teacher1;//DECLARING A OBJECT
+         teacher1=new Teacher();//CREATING A OBJECT
+
+          teacher1.name="HERBERT SCHILDT";
+          teacher1.gender="MALE";
+          teacher1.phone=91534148;
+
+        System.out.println("OBJECT 1:-");
+        System.out.println("NAME:"+teacher1.name);
+        System.out.println("GENDER:"+teacher1.gender);
+        System.out.println("PHONE NO. :"+teacher1.phone);
+
+        Teacher x; //DECLARING A OBJECT X
+        x=new Teacher();//CREATING A OBJECT X USING new operator
+
+        x.name="HOWARD ANTON";
+        x.gender="MALE";
+        x.phone=45678;
+
+        System.out.println("OBJECT 2:-");
+        System.out.println("NAME:"+x.name);
+        System.out.println("GENDER:"+x.gender);
+        System.out.println("PHONE NO. :"+x.phone);
+
+
+
+    }
+}

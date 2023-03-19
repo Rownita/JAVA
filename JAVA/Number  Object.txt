@@ -1,0 +1,13 @@
+public class Object {
+    public static void main(String[] args) {
+        Number num;
+        num=new Number();
+        num.SetNumber(1900);//acsessing setter method
+        System.out.println(num.GetNumber());//accsessing getter method
+
+
+    }
+
+
+
+}

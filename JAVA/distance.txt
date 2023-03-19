@@ -1,0 +1,32 @@
+//distance between two points
+
+import static java.lang.Math.sqrt;
+import static java.lang.Math.pow;
+
+import java.util.Scanner;
+
+public class Distance {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+
+        double x1,y1,x2,y2,distance;
+
+        System.out.print("x1:");
+        x1=input.nextDouble();
+
+        System.out.print("y1:");
+        y1=input.nextDouble();
+
+        System.out.print("x2:");
+        x2=input.nextDouble();
+
+        System.out.print("y2:");
+        y2=input.nextDouble();
+
+      distance=sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+
+        System.out.println("Distance:"+distance);
+
+
+    }
+}

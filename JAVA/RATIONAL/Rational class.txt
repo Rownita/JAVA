@@ -1,0 +1,75 @@
+public class Rational {
+
+
+
+        private int p;
+        private int q;
+
+        Rational(){
+
+        }
+        Rational(int p,int q){
+            this.p=p;
+            this.q=q;
+
+        }
+        int getNum(){
+            return p;
+        }
+        int getDen(){
+            return q;
+
+
+
+        }
+        public void Add(Rational a,Rational b){
+            int  x=a.getDen()*b.getDen();
+            int  x2=(x/a.getDen())*a.getNum();
+            int  x3=(x/b.getDen())*b.getNum();
+            int  p1=x2+x3;
+            System.out.printf("Sum: %d/%d ",p1,x);
+
+
+
+
+        }
+        public void Subtract(Rational a,Rational b){
+            int  x=a.getDen()*b.getDen();
+            int  x2=(x/a.getDen())*a.getNum();
+            int  x3=(x/b.getDen())*b.getNum();
+            int  p1=x2-x3;
+            System.out.printf("Subtraction:%d/%d",p1,x);
+        }
+
+
+
+
+        public void Multiplication(Rational a,Rational b){
+
+            int x=a.getDen()*b.getDen();
+            int y=a.getNum()*b.getNum();
+            System.out.println("MULTIPLICATION:"+y+"/"+x);
+
+
+}
+        public void Division(Rational a,Rational b){
+
+            int p1=a.getNum()*b.getDen();
+            int q1=a.getDen()*b.getNum();
+
+            System.out.println("Division:"+p1+"/"+q1);
+
+
+
+
+
+
+        }
+
+
+
+
+
+    }
+
+s

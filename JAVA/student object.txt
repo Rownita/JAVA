@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Object {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        Scanner var=new Scanner(System.in);
+        Student x; //Declaring an object x
+        x=new Student();//Creating an object x
+
+        System.out.print("ENTER YOUR NAME:");
+        x.name=input.nextLine();
+
+        System.out.print("ENTER YOUR ID NO:");
+        x.id=input.nextInt();
+
+        System.out.print("ENTER YOUR COURSE:");
+        x.coursename=var.nextLine();
+        System.out.println("NAME:"+x.name);
+        System.out.println("ID NO. :"+x.id);
+        System.out.println("COURSE:"+x.coursename);
+
+
+
+
+    }
+
+}
